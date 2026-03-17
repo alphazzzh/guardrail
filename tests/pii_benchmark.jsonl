@@ -1,0 +1,28 @@
+{"id": "cn_001", "text": "我的手机号是13812345678，请联系我", "entities": [{"type": "PHONE_NUMBER", "value": "13812345678", "start": 7, "end": 18}]}
+{"id": "cn_002", "text": "身份证号码：421083200308187016，姓名：张三", "entities": [{"type": "ID_CARD", "value": "421083200308187016", "start": 6, "end": 24}]}
+{"id": "cn_003", "text": "请把钱转到工商银行卡6222021234567890123", "entities": [{"type": "BANK_CARD", "value": "6222021234567890123", "start": 11, "end": 30}]}
+{"id": "cn_004", "text": "我的邮箱是 zhangsan@example.com，欢迎来信", "entities": [{"type": "EMAIL_ADDRESS", "value": "zhangsan@example.com", "start": 6, "end": 26}]}
+{"id": "cn_005", "text": "服务器IP地址为 192.168.1.100 请不要外传", "entities": [{"type": "IP_ADDRESS", "value": "192.168.1.100", "start": 9, "end": 22}]}
+{"id": "cn_006", "text": "我的车牌是沪A·88888，停在地下停车场", "entities": [{"type": "LICENSE_PLATE", "value": "沪A·88888", "start": 5, "end": 12}]}
+{"id": "cn_007", "text": "护照号E12345678将于明年到期，需要提前办理续签", "entities": [{"type": "PASSPORT", "value": "E12345678", "start": 3, "end": 12}]}
+{"id": "cn_008", "text": "统一社会信用代码：91310000MA1FL6X829", "entities": [{"type": "USCC", "value": "91310000MA1FL6X829", "start": 9, "end": 27}]}
+{"id": "cn_010", "text": "固定电话：010-62345678，工作时间内拨打", "entities": [{"type": "PHONE_NUMBER", "value": "010-62345678", "start": 5, "end": 17}]}
+{"id": "cn_011", "text": "身份证末尾带X的情况：11010119900101123X", "entities": [{"type": "ID_CARD", "value": "11010119900101123X", "start": 12, "end": 30}]}
+{"id": "cn_012", "text": "多个PII：手机13912345678，邮箱 lisi@corp.cn，身份证320101198501011234", "entities": [{"type": "PHONE_NUMBER", "value": "13912345678", "start": 6, "end": 17}, {"type": "EMAIL_ADDRESS", "value": "lisi@corp.cn", "start": 20, "end": 32}, {"type": "ID_CARD", "value": "320101198501011234", "start": 36, "end": 54}]}
+{"id": "cn_013", "text": "今天天气不错，我们去公园散步吧", "entities": []}
+{"id": "cn_014", "text": "请问人工智能的发展趋势是什么？", "entities": []}
+{"id": "cn_015", "text": "这个项目的截止日期是下周五，请大家注意", "entities": []}
+{"id": "cn_016", "text": "用户王伟的账户余额为12345.67元", "entities": []}
+{"id": "cn_017", "text": "银行卡号6228480402564890018转账5000元", "entities": [{"type": "BANK_CARD", "value": "6228480402564890018", "start": 4, "end": 23}]}
+{"id": "cn_018", "text": "请查一下IP 10.0.0.1 的访问日志", "entities": [{"type": "IP_ADDRESS", "value": "10.0.0.1", "start": 8, "end": 16}]}
+{"id": "cn_019", "text": "我的港澳通行证号为H12345678，下周需要使用", "entities": [{"type": "PASSPORT", "value": "H12345678", "start": 9, "end": 18}]}
+{"id": "cn_020", "text": "开发服务器地址 http://192.168.0.50:8080/api", "entities": [{"type": "IP_ADDRESS", "value": "192.168.0.50", "start": 9, "end": 21}]}
+{"id": "cn_021", "text": "联系人：张伟，电话：13800138000，请尽快回复。", "entities": [{"type": "PHONE_NUMBER", "value": "13800138000", "start": 10, "end": 21}]}
+{"id": "cn_022", "text": "客户王芳的身份证是110105199001011234，注意保密。", "entities": [{"type": "ID_CARD", "value": "110105199001011234", "start": 9, "end": 27}]}
+{"id": "cn_023", "text": "简历请发送至 admin@company.com 谢谢", "entities": [{"type": "EMAIL_ADDRESS", "value": "admin@company.com", "start": 7, "end": 24}]}
+{"id": "cn_025", "text": "李雷向账号6222021234567890汇款", "entities": [{"type": "BANK_CARD", "value": "6222021234567890", "start": 5, "end": 21}]}
+{"id": "cn_026", "text": "肇事车辆车牌号为粤B12345，已逃逸", "entities": [{"type": "LICENSE_PLATE", "value": "粤B12345", "start": 8, "end": 14}]}
+{"id": "cn_027", "text": "服务器IPv6地址为 2001:0db8:85a3:0000:0000:8a2e:0370:7334 异常", "entities": [{"type": "IP_ADDRESS", "value": "2001:0db8:85a3:0000:0000:8a2e:0370:7334", "start": 10, "end": 49}]}
+{"id": "cn_028", "text": "设备的MAC地址是 00:1A:2B:3C:4D:5E ，请记录", "entities": [{"type": "MAC_ADDRESS", "value": "00:1A:2B:3C:4D:5E", "start": 10, "end": 27}]}
+{"id": "cn_029", "text": "护照号 E12345678 已过期，请更新", "entities": [{"type": "PASSPORT", "value": "E12345678", "start": 4, "end": 13}]}
+{"id": "cn_030", "text": "赵六的邮箱是zhao6@test.cn，手机13912345678", "entities": [{"type": "EMAIL_ADDRESS", "value": "zhao6@test.cn", "start": 6, "end": 19}, {"type": "PHONE_NUMBER", "value": "13912345678", "start": 22, "end": 33}]}

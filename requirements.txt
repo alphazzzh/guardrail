@@ -1,0 +1,39 @@
+# Core dependencies
+langgraph>=0.0.1
+openai>=1.0.0
+transformers>=4.30.0
+httpx>=0.24.0
+ahocorasick-rs>=0.22.0
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# Web framework
+fastapi>=0.100.0
+uvicorn>=0.23.0
+pydantic>=2.0.0
+anyio>=3.7.0
+
+# ML / inference
+torch>=2.0.0
+numpy>=1.24.0
+datasets>=2.0.0
+
+# PII redaction (optional, gracefully degrades if not installed)
+presidio-analyzer>=2.2.0
+presidio-anonymizer>=2.2.0
+pyyaml>=6.0.0
+
+# Environment & config
+python-dotenv>=1.0.0
+
+# AI Provider SDKs (optional, install as needed)
+anthropic>=0.18.0          # Anthropic Claude (AnthropicProvider)
+# boto3>=1.28.0            # AWS Bedrock (BedrockProvider)
+# google-generativeai>=0.3.0  # Google Gemini (GeminiProvider)
+
+# Development
+pytest>=7.0.0
+pytest-asyncio>=0.23.0
+pytest-cov>=4.0.0
+ruff>=0.1.0
+mypy>=1.0.0

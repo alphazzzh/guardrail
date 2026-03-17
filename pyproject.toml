@@ -1,0 +1,53 @@
+[project]
+name = "stream-demo"
+version = "0.1.0"
+description = "LLM Safety Guard System"
+requires-python = ">=3.9"
+dependencies = [
+    "langgraph>=0.0.1",
+    "openai>=1.0.0",
+    "transformers>=4.30.0",
+    "httpx>=0.24.0",
+    "ahocorasick-rs>=0.22.0",
+    "python-dotenv>=1.0.0",
+    "fastapi>=0.100.0",
+    "uvicorn>=0.23.0",
+    "pydantic>=2.0.0",
+    "anyio>=3.7.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.23.0",
+    "pytest-cov>=4.0.0",
+    "ruff>=0.1.0",
+    "mypy>=1.0.0",
+    "pre-commit>=3.0.0",
+]
+anthropic = ["anthropic>=0.18.0"]
+bedrock = ["boto3>=1.28.0"]
+gemini = ["google-generativeai>=0.3.0"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_ignores = true
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+addopts = "-v --tb=short"
+
+[tool.coverage.run]
+source = ["providers", "services", "workflows", "guards", "utils"]
+omit = ["*/__init__.py", "*/test_*.py"]
